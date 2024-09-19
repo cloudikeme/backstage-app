@@ -100,7 +100,7 @@ Data:
 
 #### Update Gitea Credentials
 
-Gitea admin passwords are generated on each fresh installation as well. To obtain your password, run: `./idpbuilder get secrets -p argocd`.
+Gitea admin passwords are generated on each fresh installation as well. To obtain your password, run: `./idpbuilder get secrets -p gitea`.
 Then update [this line](https://github.com/cnoe-io/backstage-app/blob/9ee3514e51c1a354b7fe85a90117faf8328bfa0b/app-config.yaml#L40) and [this line](https://github.com/cnoe-io/backstage-app/blob/9ee3514e51c1a354b7fe85a90117faf8328bfa0b/app-config.yaml#L44).
 
 For example:
